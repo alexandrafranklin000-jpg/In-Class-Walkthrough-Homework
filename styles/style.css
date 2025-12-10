@@ -1,0 +1,62 @@
+body {
+background: linear-gradient(to bottom, #fffbff, #e0f7fa);
+font-family: 'Comic Sans MS', cursive, Arial, sans-serif;
+color: #333;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+
+h1 {
+font-size: 42px;
+font-family: 'Brush Script MT', cursive;
+color: #ff6f91;
+margin-bottom: 10px;
+}
+
+
+h2 {
+color: #4fc3f7;
+text-decoration: underline;
+font-style: italic;
+font-weight: bold;
+}
+
+
+p {
+font-size: 20px;
+line-height: 1.6;
+margin: 10px 20px;
+}
+
+
+#pink {
+color: #ff69b4;
+font-weight: bold;
+}
+
+
+.header {
+z-index: 10;
+text-align: center;
+background-color: #ffe0f0;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.header a {
+display: inline-block;
+margin: 5px 10px;
+text-decoration: none;
+font-weight: bold;
+color: #ff4081;
+transition: 0.3s;
+}
+
+
+.header a:hover {
+color: #d500f9;
+}
